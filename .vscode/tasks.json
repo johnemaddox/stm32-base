@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "PlatformIO",
+            "task": "Upload",
+            "problemMatcher": [
+                "$platformio"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "focus": true
+            },
+            "label": "PlatformIO: Upload"
+        },
+        {
+            "type": "PlatformIO",
+            "task": "Test",
+            "problemMatcher": [
+                "$platformio"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+             },
+            "presentation": {
+                "focus": true
+            },
+            "label": "PlatformIO: Test"
+        }
+    ]
+}
